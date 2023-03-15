@@ -40,11 +40,27 @@ const Secondmain = () => {
             </div>
 
             <div className="grid grid-cols-3 mb-6 ml-32">
-                <div>hello</div>
+                <div className='text-2xl'>
+               <p>MAR </p>
+                <p className='text-5xl mb-8'>09</p> 
+
+                <p className='text-6xl mb-6 '>Engineering breakthrough in softbotics</p>
+                   <p className='text-2xl'>Introducing the first soft material that can maintain 
+                    a high enough electrical conductivity to support power hungry devices.</p>
+                </div>
                 <div>
                     <img src={cmu} alt="cmu" className='object-cover h-screen w-full'/>
                 </div>
-                <div>hello</div>
+                <div className='ml-8'>
+                    <h1 className='font-bold text-6xl border-b-4 mb-8 border-black mr-32'>Top 5</h1>
+                    <div className='grid grid-rows-5'>
+                        <div>hello</div>
+                        <div>hello</div>
+                        <div>hello</div>
+                        <div>hello</div>
+                        <div>hello</div>
+                    </div>
+                </div>
             </div>
 
         </div>
