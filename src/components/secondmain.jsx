@@ -54,11 +54,42 @@ const Secondmain = () => {
                 <div className='ml-8'>
                     <h1 className='font-bold text-6xl border-b-4 mb-8 border-black mr-32'>Top 5</h1>
                     <div className='grid grid-rows-5'>
-                        <div>hello</div>
-                        <div>hello</div>
-                        <div>hello</div>
-                        <div>hello</div>
-                        <div>hello</div>
+                        <div className='flex mb-4'>
+                            <span className='mr-4'>01</span>
+                                <span > 
+                                    <p>Lab work makes for easier class work</p>
+                                    <span className=''>MARCH 7, 2023</span>
+                                </span>
+                        </div>
+                        <div className='flex'>
+                            <span className='mr-4'>02</span>
+                                <span > 
+                                    <p>Lab work makes for easier class work</p>
+                                    <span className=''>MARCH 7, 2023</span>
+                                </span>
+                        </div>
+                        <div className='flex'>
+                            <span className='mr-4'>03</span>
+                                <span > 
+                                    <p>Lab work makes for easier class work</p>
+                                    <span className=''>MARCH 7, 2023</span>
+                                </span>
+                        </div>
+                        <div className='flex'>
+                            <span className='mr-4'>04</span>
+                                <span > 
+                                    <p>Lab work makes for easier class work</p>
+                                    <span className=''>MARCH 7, 2023</span>
+                                </span>
+                        </div>
+                        <div className='flex'>
+                            <span className='mr-4'>05</span>
+                                <span > 
+                                    <p>Lab work makes for easier class work</p>
+                                    <span className=''>MARCH 7, 2023</span>
+                                </span>
+                        </div>
+
                     </div>
                 </div>
             </div>
