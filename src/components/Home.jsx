@@ -1,5 +1,8 @@
+import Footer from './Footer';
+import Fouth_main from './Fouth_main';
 import Navigation from './Navigation';
 import Third_main from './Third_main';
+import Five from './five';
 import Secondmain from './secondmain';
 const Home = () => {
     return (
@@ -14,6 +17,9 @@ const Home = () => {
         </div>
         <Secondmain/>
         <Third_main/>
+        <Fouth_main />
+        <Five/>
+        <Footer/>
         </div>
     )
 }
