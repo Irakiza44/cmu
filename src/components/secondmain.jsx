@@ -1,3 +1,4 @@
+import cmu1 from '../img/cmu1.png'
 import cmu from '../img/cmu.png'
 const Secondmain = () => {
     return (
@@ -39,20 +40,19 @@ const Secondmain = () => {
                 </div>
             </div>
 
-            <div className="grid grid-cols-3 mb-6 ml-32">
+            <div className="grid grid-cols-3 ml-32 mb-8 border-b pb-32 mr-32">
                 <div className='text-2xl'>
                <p>MAR </p>
-                <p className='text-5xl mb-8'>09</p> 
+                <p className='text-5xl mb-8'>14</p> 
 
-                <p className='text-6xl mb-6 '>Engineering breakthrough in softbotics</p>
-                   <p className='text-2xl'>Introducing the first soft material that can maintain 
-                    a high enough electrical conductivity to support power hungry devices.</p>
+                <p className='text-6xl mb-6 '>Improving air quality in Africa</p>
+                   <p className='text-2xl'>CMU-Africa, CMU-Pittsburgh, and global collaborators create an air quality testing center in Ghana with new funding from the Clean Air Fund.</p>
                 </div>
                 <div>
-                    <img src={cmu} alt="cmu" className='object-cover h-screen w-full'/>
+                    <img src={cmu1} alt="cmu" className='object-cover h-screen w-full'/>
                 </div>
-                <div className='ml-8'>
-                    <h1 className='font-bold text-6xl border-b-4 mb-8 border-black mr-32'>Top 5</h1>
+                <div className='ml-8 '>
+                    <h1 className='font-bold text-6xl border-b-4 mb-4 pb-8 border-black mr-32'>Top 5</h1>
                     <div className='grid grid-rows-5'>
                         <div className='flex mb-4'>
                             <span className='mr-4'>01</span>
@@ -64,29 +64,29 @@ const Secondmain = () => {
                         <div className='flex'>
                             <span className='mr-4'>02</span>
                                 <span > 
-                                    <p>Lab work makes for easier class work</p>
-                                    <span className=''>MARCH 7, 2023</span>
+                                    <p>New air quality data from East Palestine, Ohio</p>
+                                    <span className=''>MARCH 2, 2023</span>
                                 </span>
                         </div>
                         <div className='flex'>
                             <span className='mr-4'>03</span>
                                 <span > 
-                                    <p>Lab work makes for easier class work</p>
-                                    <span className=''>MARCH 7, 2023</span>
+                                    <p>Presidential and graduate fellowships awarded</p>
+                                    <span className=''>FEBRUARY 28, 2023</span>
                                 </span>
                         </div>
                         <div className='flex'>
                             <span className='mr-4'>04</span>
                                 <span > 
-                                    <p>Lab work makes for easier class work</p>
-                                    <span className=''>MARCH 7, 2023</span>
+                                    <p>All eyes on “forever chemicals”</p>
+                                    <span className=''>FEBRUARY 23, 2023</span>
                                 </span>
                         </div>
                         <div className='flex'>
                             <span className='mr-4'>05</span>
                                 <span > 
-                                    <p>Lab work makes for easier class work</p>
-                                    <span className=''>MARCH 7, 2023</span>
+                                    <p>New hope for people living with paralysis after stroke</p>
+                                    <span className=''>FEBRUARY 20, 2023</span>
                                 </span>
                         </div>
 

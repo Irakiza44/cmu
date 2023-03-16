@@ -1,4 +1,5 @@
 import Navigation from './Navigation';
+import Third_main from './Third_main';
 import Secondmain from './secondmain';
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             
         </div>
         <Secondmain/>
+        <Third_main/>
         </div>
     )
 }
