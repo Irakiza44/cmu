@@ -39,7 +39,7 @@ const Fouth_main = () => {
                         <div className="row title" style={{ marginBottom: "20px" }} >
                         </div>
                     </div>
-                    <div class='container-fluid' >
+                    <div class='container-fluid cursor-grabbing' >
                         <OwlCarousel items={4}
                             className="owl-theme "
                             loop

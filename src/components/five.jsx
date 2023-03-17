@@ -6,8 +6,8 @@ const Five=()=>{
             <div className="grid grid-cols-4 ml-32 grid-rows-6">
                 <div className="mb-12">MARCH 21-24 2023</div>
                 <div className="mb-32">
-                    <p>Scott Institute for Energy Innovation</p>
-                    <p>CMU Energy Week</p>
+                    <p className='text-xl'>Scott Institute for Energy Innovation</p>
+                    <p className='font-bold mt-2 text-2xl'>CMU Energy Week</p>
                 </div>
                 <div>Cohon University Center, Pittsburgh Campus</div>
                 <div>Learn more and register</div>
